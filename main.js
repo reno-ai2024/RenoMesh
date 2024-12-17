@@ -4,7 +4,7 @@ import fs from 'fs/promises';
 import { banner } from './banner.js';
 import fetch from 'node-fetch';
 import { SocksProxyAgent } from 'socks-proxy-agent';
-import HttpsProxyAgent from 'https-proxy-agent';
+import { HttpsProxyAgent } from 'https-proxy-agent';
 
 let headers = {
     'Content-Type': 'application/json',
